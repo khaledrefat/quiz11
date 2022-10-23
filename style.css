@@ -1,0 +1,471 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-image: url(blue_bg.png);
+    background-size: cover; 
+    background-repeat: no-repeat;
+    width: 95%;
+    overflow-x: hidden;
+    position: absolute;
+    height: 100px;
+
+    }
+    /* <!-- --------------divbar start------------- --> */
+
+.divbar{
+    width: 100%;
+    height: 15vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 50px;
+    padding-right: 50px;
+    margin-top: 40px;
+
+}
+
+.divbar .divbarleft{
+    display: flex;
+    justify-content: space-between;
+    align-items: center; 
+
+}
+.divbar .divbarleft img:hover{
+    transform: rotate(180deg);
+    scale: 2;
+
+}
+.divbar .divbarleft div{
+    padding-left: 50px;
+    font-size: 22px;
+    font-weight: 700px;
+}
+.divbar .divbarleft div ins{
+    color: blueviolet;
+}
+.divbar .divbarleft div:hover{
+color: blueviolet;
+scale: 1.3;
+
+
+}
+
+.divbar .login{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+.divbar .login p:hover{
+    color: blue;
+    transform: scale(2);
+
+}
+
+.divbar .login p{
+    padding-right: 5px;
+    position: absolute;
+
+}
+
+/* <!-- --------------divbar------------- --> */
+/* <!-- ------------smail-section start --------------> */
+
+.smail-section{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center; 
+    width: 100%;
+    height: 250px;
+    padding-top: 200px;
+    margin-left: 80px;
+    position: relative;
+} 
+.smail-section .smail-pragraph .sill{
+    width: 100%;
+    padding-left: 40px;
+    font-size: 35px;
+    font-weight: 100px;
+    text-emphasis-color: red
+
+
+}
+.sill{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.ppp{
+    color: red;
+    font-size: 40px;
+    font-weight: 1800px;
+}
+
+.smail-section .smail-pragraph .leave{
+    width: 100%;
+    padding-left: 60px;
+    font-size: 26px;
+    font-weight: 50px;
+    text-transform: lowercase;
+
+}
+
+.smail-section .pic{
+    display: flex;
+    align-items: center;
+    justify-content: center; 
+}
+.smail-section  .mask{
+    position: relative;
+    padding-right:250px;
+    padding-bottom: 100px;
+
+
+}
+
+.smail-section  .landing{
+    position: absolute;
+    z-index:-2;
+    padding-right:200px;
+    padding-top: 70px;
+
+}
+.smail-section .pic  .clouds{
+    position: absolute;
+    z-index: 2 ;
+    padding-top: 300px;
+    padding-right: 250px;
+}
+.smail-section .pic  .cloud{
+    position: absolute;
+    z-index: 3 ;
+    padding-top: 750px;
+    padding-left: 250px;
+}
+
+.waves{
+    position: absolute;
+    z-index: 1;
+    padding-top: 160px;
+
+    }
+
+/* <!-- ------------smail-section end -------------->
+<!-- ------------ section-tow start  --------------> */
+
+.section-two{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    margin-top: 350px;
+text-align: center;
+}
+.section-two .second_section{
+position: absolute;
+z-index: -2;
+padding-left: 100px;
+width: 70%;
+}
+.section-two  .Group-140{
+    position: absolute;
+    z-index: -1;
+    padding-right: 700px;
+    padding-bottom: 130px;
+}
+.section-two  .Group-140 h6{
+   font-size: larger; 
+}
+
+.section-two .Group-152{
+    position: absolute;
+    z-index: -1;
+    padding-top: 90px;
+    padding-left: 20px;
+
+
+}
+.section-two .Group-152 h6{
+    font-size: larger; 
+
+
+}
+
+
+.section-two .Group-1020{
+    position: absolute;
+    z-index: -1;
+    padding-left: 640px;
+    padding-top: 550px;
+
+
+}
+.section-two .Group-1020 h6{
+    font-size: larger; 
+
+
+}
+
+.section-two .why_kudzoka{
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    position: absolute;
+    z-index: -1;
+    padding-top: 650px;
+    padding-right: 700px;
+
+}
+
+.section-two .why_kudzoka .kudzoka{
+    position: absolute;
+    z-index: 1;
+    
+} 
+.section-two .why_kudzoka .kudzoka p{
+color: white;
+font-size: larger;
+padding-left: 70px;
+text-align: left;
+}
+
+.section-two .why_kudzoka .kudzoka h1{
+    color: white;
+    font-size: 60px;
+    align-items: center;
+    padding-left: 70px;
+    font-weight: 100;
+    text-transform: lowercase;
+    padding-right: 5px;
+
+}
+/* <!-- ------------section-tow end -------------->
+<!-- ------------ section-there start --------------> */
+
+.section-there{
+    margin-top: 30px;
+    width: 80%;
+    height: 150vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-left: 400px;
+
+}
+.h3pre{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    padding-left: 10px ;
+}
+.section-there .Group-1006{
+    padding-right: 50px;
+}
+.section-there .Group-1007{
+    padding-left: 40px;
+}
+
+.section-there .Group-1008{
+    padding-left: 70px;
+}
+
+.round{
+    margin-top: 50px;
+    padding-right: 100px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 450px;
+    flex-direction: column;
+    position: absolute;
+}
+.round .clock h4{
+font-size: 20px;
+font-weight: 50px;
+}
+.section-there .round  p{
+    text-align: center;
+
+}
+.h3pre{
+position: absolute;
+top: 2000px;
+font-size: 20px;
+}
+/* ------------section-threr end ------------*/
+/* <!-- ------------ section-group start --------------> */
+.Group{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    padding-left: 80px;
+    z-index: -1;
+}
+ .Group .Group-1131{
+position: absolute;
+height: 550px;
+overflow-x: hidden;
+z-index: -4;
+padding-bottom: 200px;
+}
+ .Group .removebg-preview{
+    height: 200px;
+position: absolute;
+z-index: 1;
+padding-left: 490px;
+padding-bottom: 290px;
+} 
+/* <!-- ------------ section-group end --------------> */
+/* <!-- ------------ section-end start --------------> */
+
+.section-end{
+    margin-top: 300px;
+    width: 100%;
+    display: flex;
+    align-items: flex-end;
+    position: relative;
+
+}
+.section-end  .section-end-left{
+    display: flex;
+    flex-direction: column ;
+    position: absolute;
+    z-index: 2;
+    padding-left: 120px;
+    padding-bottom: 100px;
+}
+.section-end  .section-end-left  .store{
+    display: flex;
+    flex-direction: row ;
+    justify-content: center;
+    align-items: center;
+    position:relative ;
+    padding-left: 20px;
+    
+
+}
+
+
+.section-end  .section-end-left  .store .apple{
+    display: flex;
+    flex-direction: row;
+    position: absolute;
+  
+}
+.section-end  .section-end-left  .store .apple .fa-apple{
+position: absolute;
+z-index: 3;
+font-size: 30px;
+color: rgb(25, 0, 255);
+left: 5px;
+bottom: 9px;
+}
+.section-end  .section-end-left  .store .play{
+    display: flex;
+    flex-direction: row;
+    position: absolute;
+    padding-left: 250px;
+
+}
+
+.section-end  .section-end-left  .store .play pre{
+    font: 18;
+}
+.section-end  .section-end-left  .store button{
+    background-color: rgb(247, 240, 240);
+    width: 130px;
+    height: 50px;
+    border-radius: 18px;
+    padding-left: 20px;
+    font-weight: 800px;
+    border-color: aliceblue;
+}
+.section-end  .section-end-left  .store .play button{
+    margin-left: 20px;
+}
+
+.section-end  .section-end-left  .store .play .fa-google-play{
+
+    position: absolute;
+    z-index: 3;
+    font-size: 30px;
+    color: blue;
+    left: 275px;
+    bottom: 9px;
+
+}
+
+.section-end  .section-end-left   .icons{
+    display: flex;
+    flex-direction: row;
+    padding-left:px;
+    width: 100%;
+}
+.section-end  .section-end-left   .icons div:hover{
+color: rgb(28, 25, 226);
+transform: scale(1.5)
+}
+.Icon-awesome  {
+    margin-top: 10px;
+    padding-right:10px;
+padding-top: 20px;
+margin-top: 22px;
+}
+
+
+.Icon-simple{
+    margin-top: 10px;
+    padding-right:10px;
+padding-top: 20px;
+margin-top: 22px;
+
+
+}
+
+.Icon-feather{
+    margin-top: 10px;
+    padding-right:10px;
+padding-top: 20px;
+margin-top: 22px;
+
+}
+
+.section-end  .section-end-left .abouts{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: stretch;
+    justify-content: space-between;
+    position: absolute;
+    padding-top: 80px;
+    z-index: -1;
+}
+.section-end  .section-end-left .abouts div{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 350px;
+    margin-right: 10px;
+    padding-right: 10px;
+    font-size: 15px;
+    color: white;
+
+
+    
+}
+.section-end  .section-end-left .abouts div:hover{
+    color: rgb(28, 25, 226);
+    transform: scale(1.5)
+
+}
